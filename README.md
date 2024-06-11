@@ -12,14 +12,13 @@ Make sure you have Node.js and npm installed on your machine.
 git clone <repository-url>
 cd <repository-directory>
 
-### Install Dependencies
-
+Install Dependencies
 To install the necessary dependencies, run the following command in your terminal:
 
-```bash
 npm install
 
-## Running the Application
-npm run dev
+Running the Application
+Development Mode
+To run the application in development mode with hot module replacement (HMR), use the following command:
 
-This will start the development server and open the application in your default web browser.
+npm run dev
